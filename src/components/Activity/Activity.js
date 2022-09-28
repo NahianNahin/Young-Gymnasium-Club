@@ -1,8 +1,8 @@
 import React from 'react';
 import './Activity.css';
 
-const Activity = (props) => {
-    const {name,img,detials,time,age} = props.activity;
+const Activity = ({activity,handleAddList}) => {
+    const {name,img,detials,time,age} = activity;
     return (
         <div>
             <div className="card w-64 bg-base-100 shadow-xl">
@@ -12,10 +12,10 @@ const Activity = (props) => {
                 <div className="card-body">
                     <h2 className="card-title">{name}</h2>
                     {/* <p>{detials.slice(0,100)}...</p> */}
-                    <p>For Age : {age}</p>
-                    <p><b className='font-semibold'>Time required :</b> {time}</p>
+                    <p>For Age : {age} yrs</p>
+                    <p><b className='font-semibold'>Time required :</b> {time} min</p>
                     <div className="card-actions">
-                    <button className="btn btn-sm  ">Add to list</button>
+                    <button className="btn btn-sm" onClick={() => handleAddList(activity)}>Add to list</button>
                     </div>
                 </div>
             </div>

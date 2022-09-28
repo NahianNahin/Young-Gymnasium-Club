@@ -4,6 +4,7 @@ import './Activities.css';
 import image from '../../my-image.png';
 import Information from '../Information/Information';
 import Properties from '../Properties/Properties';
+import Breaks from '../Breaks/Breaks';
 
 const Activities = () => {
     const [activities,setActivities] = useState([]);
@@ -28,6 +29,7 @@ const Activities = () => {
                 
                 <Information name = "Md Rizwan" location = "Dhaka,Bangladesh" image = {image}></Information>
                 <Properties></Properties>
+                <Breaks></Breaks>
             </div>
         </div>
     );

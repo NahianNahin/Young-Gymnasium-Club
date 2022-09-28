@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Activity from '../Activity/Activity';
 import './Activities.css';
+import image from '../../my-image.png';
+import Information from '../Information/Information';
 
 const Activities = () => {
     const [activities,setActivities] = useState([]);
@@ -13,7 +15,7 @@ const Activities = () => {
         <div className='overall-area '>
             <div className='activities-container'>
             <h1 className='text-3xl font-semibold p-5 mb-2'> Welcome to Young Gymnasium Club!!!</h1>
-            <p className='text-xl font-semibold p-5 '>Select today’s exercise</p>
+            <p className='text-xl font-semibold p-5 '>Select Today’s Exercise</p>
             <div className='grid grid-cols-3 gap-4'>
                 {
                     activities.map(activity => <Activity key={activity.id} activity={activity}></Activity>)
@@ -22,7 +24,8 @@ const Activities = () => {
                 
             </div>
             <div className='added-area '>
-                <h1>Add your activities time</h1>
+                
+                <Information name = "Md Rizwan" location = "Dhaka,Bangladesh" image = {image}></Information>
             </div>
         </div>
     );

@@ -6,10 +6,12 @@ import Information from '../Information/Information';
 import Properties from '../Properties/Properties';
 import Breaks from '../Breaks/Breaks';
 import Exercise from '../Exercise/Exercise';
+import Completed from '../Completed/Completed';
 
 const Activities = () => {
     const [activities,setActivities] = useState([]);
     const [selected,setSelected] = useState([]);
+    const [breakTime,setBreakTime] = useState(0);
     useEffect(() => {
         fetch('activities.json')
         .then(res => res.json())
@@ -20,6 +22,12 @@ const Activities = () => {
         const newSelected = [...selected,activity];
         setSelected(newSelected);
         
+    }
+    const setTheBreakTime = (time) => {
+        localStorage.setItem("Break-time",time);
+        const newTimeStringify = localStorage.getItem('Break-time');
+        const newTime = JSON.parse(newTimeStringify);
+        setBreakTime(newTime);
     }
     return (
         <div className='overall-area '>
@@ -38,9 +46,10 @@ const Activities = () => {
                 <div className='info'>
                 <Information name = "Md Rizwan" location = "Dhaka,Bangladesh" image = {image}></Information>
                 <Properties></Properties>
-                <Breaks></Breaks>
-                <Exercise selected={selected}></Exercise>
-                <button className='btn mt-5'>Activity Completed</button>
+                <Breaks setTheBreakTime = {setTheBreakTime}></Breaks>
+                <Exercise selected={selected} breakTime={breakTime}></Exercise>
+                <Completed></Completed>
+                
                 </div>
 
             </div>

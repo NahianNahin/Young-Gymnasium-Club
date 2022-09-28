@@ -3,6 +3,7 @@ import Activity from '../Activity/Activity';
 import './Activities.css';
 import image from '../../my-image.png';
 import Information from '../Information/Information';
+import Properties from '../Properties/Properties';
 
 const Activities = () => {
     const [activities,setActivities] = useState([]);
@@ -26,6 +27,7 @@ const Activities = () => {
             <div className='added-area '>
                 
                 <Information name = "Md Rizwan" location = "Dhaka,Bangladesh" image = {image}></Information>
+                <Properties></Properties>
             </div>
         </div>
     );

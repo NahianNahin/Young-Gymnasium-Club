@@ -1,0 +1,111 @@
+[
+    {
+        "id": 1,
+        "name": "Push-up",
+        "age": "12-30",
+        "time": 20,
+        "img": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmiro.medium.com%2Fmax%2F645%2F1*WZmDgcJO40Va5mVgdfbz7g%402x.jpeg&imgrefurl=https%3A%2F%2Fmedium.com%2F%40thegymstarter%2Fhow-to-do-a-push-up-and-why-it-took-me-15-years-to-be-able-to-perform-one-e4da5dab71de&tbnid=E0w99lZ9QRo43M&vet=12ahUKEwjjhu2j47f6AhVCzqACHTH6DqcQxiAoB3oECAAQJw..i&docid=0rXJ6qmUakrZgM&w=645&h=392&itg=1&q=push-up&ved=2ahUKEwjjhu2j47f6AhVCzqACHTH6DqcQxiAoB3oECAAQJw",
+        "detials": "The push-up is a common calisthenics exercise beginning from the prone position."
+
+    },
+    {
+        "id": 2,
+        "name": "Bench Press",
+        "age": "12-30",
+        "time": 60,
+        "img": "https://static.strengthlevel.com/images/illustrations/bench-press-1000x1000.jpg",
+        "detials": "The bench press, or chest press, is a weight training exercise in which the trainee presses a weight upwards while lying on a weight training bench."
+
+    },
+    {
+        "id": 3,
+        "name": "Yoga",
+        "age": "12-30",
+        "time": 40,
+        "img": "https://blogimage.vantagefit.io/vfitimages/2020/09/yoga-in-the-workplace.png",
+        "detials": "Yoga is a group of physical, mental, and spiritual practices or disciplines which originated in ancient India and aim to control and still the mind, recognizing a detached witness-consciousness untouched by the mind and mundane suffering."
+
+    },
+    {
+        "id": 4,
+        "name": "Pull-up",
+        "age": "20-60",
+        "time": 40,
+        "img": "https://upload.wikimedia.org/wikipedia/commons/6/67/Marine_Pull-ups.jpg",
+        "detials": "A pull-up is an upper-body strength exercise. The pull-up is a closed-chain movement where the body is suspended by the hands and pulls up. As this happens, the elbows flex and the shoulders adduct and extend to bring the elbows to the torso."
+
+    },
+    {
+        "id": 5,
+        "name": "Dumbbell Rows",
+        "age": "8-18",
+        "time": 20,
+        "img": "https://www.verywellfit.com/thmb/4Q8kDD0cQ4Nbzzqa1a2Rg3soPz0=/900x704/filters:fill(FFDB5D,1)/DominicDiSaia-56a8f3803df78cf772a22c14.jpg",
+        "detials": " Stand with the knees slightly bent and tilt forward from the hips, keeping the back straight. · Hold the dumbbells out in front with the arms"
+
+    },
+    {
+        "id": 6,
+        "name": "Lange",
+        "age": "12-30",
+        "time": 30,
+        "img": "https://www.verywellfit.com/thmb/2OyKSEj69_Q2j2jqtRgm2LqsR4I=/1500x1000/filters:fill(auto,1)/Lunges_unannotated1-399b9230f4154a30ad89034ba260fc1b.jpg",
+        "detials": "A lunge can refer to any position of the human body where one leg is positioned forward with knee bent and foot flat on the ground while the other leg is positioned behind."
+
+    },
+    {
+        "id": 7,
+        "name": "Squat",
+        "age": "12-30",
+        "time": 40,
+        "img": "https://post.healthline.com/wp-content/uploads/2019/03/Female_Squat_Studio_732x549-thumbnail-2.jpg",
+        "detials": "A squat is a strength exercise in which the trainee lowers their hips from a standing position and then stands back up. During the descent of a squat, the hip and knee joints flex while the ankle joint dorsiflexes; conversely the hip and knee joints extend and the ankle joint plantarflexes when standing up."
+
+    },
+    {
+        "id": 8,
+        "name": "Plank",
+        "age": "12-30",
+        "time": 20,
+        "img": "https://www.verywellfit.com/thmb/LuHpTY5D71GpVvm8Cm3xV874GYY=/1500x1000/filters:fill(FFDB5D,1)/reverse-plank-feature-c6ff2cfcf6a84dd8b0fbfbc1070d1798.png",
+        "detials": "The plank is an isometric core strength exercise that involves maintaining a position similar to a push-up for the maximum possible time."
+
+    },
+    {
+        "id": 9,
+        "name": "Jumping Jack",
+        "age": "12-30",
+        "time": 15,
+        "img": "https://cathe.com/wp-content/uploads/2020/02/shutterstock_502211857.jpg",
+        "detials": "A jumping jack, also known as a star jump and called a side-straddle hop in the US military, is a physical jumping exercise performed by jumping to a position with the legs spread wide and the hands going overhead, sometimes in a clap, and then returning to a position with the feet together and the arms at the sides."
+
+    },
+    {
+        "id": 10,
+        "name": "Front Squat",
+        "age": "12-30",
+        "time": 15,
+        "img": "https://img.mensxp.com/media/content/2017/Jan/love-leg-day3-1485331295.jpg",
+        "detials": "The glute bridge is good for the muscles in the back of the body, known as the posterior chain."
+
+    },
+    {
+        "id": 11,
+        "name": "Deadlift",
+        "age": "20-30",
+        "time": 15,
+        "img": "https://cdn.shopify.com/s/files/1/0053/0114/1604/articles/natural-force-blog-ultimate-guide-deadlift-part-1-featured_v1_1372x.jpg?v=1545092787",
+        "detials": "The deadlift is a weight training exercise in which a loaded barbell or bar is lifted off the ground to the level of the hips, torso perpendicular to the floor, before being placed back on the ground. It is one of the three powerlifting exercises, along with the squat and bench press."
+
+    },
+    {
+        "id": 12,
+        "name": "Weight Training",
+        "age": "12-30",
+        "time": 15,
+        "img": "https://www.mensjournal.com/wp-content/uploads/mf/_main_liftlift.jpg?w=1200&h=960&crop=1&quality=86&strip=all",
+        "detials": "Weight training is a common type of strength training for developing the strength and size of skeletal muscles. It uses the force of gravity in the form of weighted bars, dumbbells or weight stacks in order to oppose the force generated by muscle through concentric or eccentric contraction."
+
+    }
+    
+]

@@ -1,0 +1,4 @@
+.overall-area{
+    display: grid;
+    grid-template-columns: 6fr 2fr;
+}

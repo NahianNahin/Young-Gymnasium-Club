@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Activities from './components/Activities/Activities';
 
 function App() {
   return (
     <div >
-      <h1>Hello World!!!</h1>
+      <h1> Welcome to Young Gymnasium Club!!!</h1>
       <Activities></Activities>
     </div>
   );

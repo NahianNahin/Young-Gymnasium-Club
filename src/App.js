@@ -4,8 +4,8 @@ import Activities from './components/Activities/Activities';
 
 function App() {
   return (
-    <div >
-      <h1> Welcome to Young Gymnasium Club!!!</h1>
+    <div className='bg-slate-100'>
+      
       <Activities></Activities>
     </div>
   );

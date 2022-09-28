@@ -2,3 +2,9 @@
     display: grid;
     grid-template-columns: 6fr 2fr;
 }
+.activities-container{
+    margin: 40px 40px;
+}
+.added-area{
+    background-color: #fff;
+}

@@ -8,7 +8,7 @@ const Information = (props) => {
     return (
         <div className='flex gap-4 mb-7'>
             <div>
-                <img src={image} alt="My-Photo" className='w-14' />
+                <img src={image} alt="myPhoto" className='w-14' />
             </div>
             <div>
                 <p className='font-semibold'>{name}</p>

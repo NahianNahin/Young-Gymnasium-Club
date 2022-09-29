@@ -7,17 +7,25 @@ import Properties from '../Properties/Properties';
 import Breaks from '../Breaks/Breaks';
 import Exercise from '../Exercise/Exercise';
 import Completed from '../Completed/Completed';
+import Blogs from '../Blogs/Blogs';
 
 const Activities = () => {
+    const initial = localStorage.getItem('Break-time');
     const [activities,setActivities] = useState([]);
     const [selected,setSelected] = useState([]);
-    const [breakTime,setBreakTime] = useState(0);
+    const [breakTime,setBreakTime] = useState(initial ? initial : 0);
+    const [blogs,setBlogs] = useState([]);
     useEffect(() => {
         fetch('activities.json')
         .then(res => res.json())
         .then(data => setActivities(data));
     },[])
-
+    useEffect(() => {
+        fetch('blogs.json')
+        .then(res => res.json())
+        .then(data => setBlogs(data));
+    },[])
+    
     const handleAddList = activity => {
         const newSelected = [...selected,activity];
         setSelected(newSelected);
@@ -26,9 +34,10 @@ const Activities = () => {
     const setTheBreakTime = (time) => {
         localStorage.setItem("Break-time",time);
         const newTime = localStorage.getItem('Break-time');
-        
         setBreakTime(newTime);
+        
     }
+    
     return (
         <div className='overall-area '>
             <div className='activities-container'>
@@ -38,7 +47,9 @@ const Activities = () => {
                 {
                     activities.map(activity => <Activity key={activity.id} activity={activity} handleAddList = {handleAddList}></Activity>)
                 }
+                
             </div>
+            <Blogs blogs={blogs}></Blogs>
                 
             </div>
             <div className='added-area '>

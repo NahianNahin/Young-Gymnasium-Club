@@ -39,11 +39,11 @@ const Activities = () => {
     }
     
     return (
-        <div className='overall-area '>
+        <div className='overall-area'>
             <div className='activities-container'>
             <h1 className='text-3xl font-semibold p-5 mb-2'> Welcome to Young Gymnasium Club!!!</h1>
             <p className='text-xl font-semibold p-5 '>Select Today’s Exercise</p>
-            <div className='grid grid-cols-3 gap-4'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-4 grid-cols-1'>
                 {
                     activities.map(activity => <Activity key={activity.id} activity={activity} handleAddList = {handleAddList}></Activity>)
                 }
@@ -52,7 +52,7 @@ const Activities = () => {
             <Blogs blogs={blogs}></Blogs>
                 
             </div>
-            <div className='added-area '>
+            <div className='added-area'>
                 
                 <div className='info'>
                 <Information name = "Md Rizwan" location = "Dhaka,Bangladesh" image = {image}></Information>

@@ -4,7 +4,7 @@ import './Activity.css';
 const Activity = ({activity,handleAddList}) => {
     const {name,img,detials,time,age} = activity;
     return (
-        <div>
+        <div className='flex justify-center'>
             <div className="card w-64 bg-base-100 shadow-xl">
                 <figure className="px-5 pt-5">
                     <img src={img} alt={name} className="rounded-xl h-40" />

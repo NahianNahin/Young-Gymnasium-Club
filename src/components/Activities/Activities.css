@@ -14,11 +14,27 @@
     position: sticky;
     top: 20px;
 }
+.icon{
+    display: block;
+}
 @media (max-width: 910px) { 
     .overall-area{
         display: block;
     }
     .added-area{
         padding-bottom: 20px;
+
     }
+    .icon{
+        display: none;
+     }
+ }
+ .img-size{
+    width: 55px;
+    height: 55px;
+ }
+ .title{
+    display: flex;
+    gap: 10px;
+    align-items: center;
  }

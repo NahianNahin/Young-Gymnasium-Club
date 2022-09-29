@@ -8,6 +8,7 @@ import Breaks from '../Breaks/Breaks';
 import Exercise from '../Exercise/Exercise';
 import Completed from '../Completed/Completed';
 import Blogs from '../Blogs/Blogs';
+import icon from '../../icon.png';
 
 const Activities = () => {
     const initial = localStorage.getItem('Break-time');
@@ -41,7 +42,14 @@ const Activities = () => {
     return (
         <div className='overall-area'>
             <div className='activities-container'>
-            <h1 className='text-3xl font-semibold p-5 mb-2'> Welcome to Young Gymnasium Club!!!</h1>
+            <div className='title'>
+                <div className='icon'>
+                    <img className='img-size' src={icon} alt="icon" />
+                </div>
+            <div>
+            <h1 className='text-3xl font-semibold py-5 mb-2'> Welcome to Young Gymnasium Club!!!</h1>
+            </div>
+            </div>
             <p className='text-xl font-semibold p-5 '>Select Today’s Exercise</p>
             <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-4 grid-cols-1'>
                 {

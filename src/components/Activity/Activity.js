@@ -5,9 +5,9 @@ const Activity = ({activity,handleAddList}) => {
     const {name,img,detials,time,age} = activity;
     return (
         <div className='flex justify-center'>
-            <div className="card w-64 bg-base-100 shadow-xl">
+            <div className="card lg:w-64 bg-base-100 shadow-xl w-96">
                 <figure className="px-5 pt-5">
-                    <img src={img} alt={name} className="rounded-xl h-40" />
+                    <img src={img} alt={name} className="rounded-xl lg:h-40 h-48" />
                 </figure>
                 <div className="card-body">
                     <h2 className="card-title">{name}</h2>
